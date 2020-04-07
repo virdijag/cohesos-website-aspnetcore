@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Cohesos";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cohesos</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="~/Content/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="~/Content/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+   
+</head>
+<body>
+    <div id="home"></div>
+    @Html.Partial("~/Views/Home/_nav.cshtml")
+    @Html.Partial("~/Views/Home/_textslider.cshtml")
+
+    @Html.Partial("~/Views/Home/_services.cshtml")
+ 
+    @Html.Partial("~/Views/Home/_about.cshtml")
+
+
+    @Html.Partial("~/Views/Home/_innersection1.cshtml")
+    @Html.Partial("~/Views/Home/_contact.cshtml")
+    @Html.Partial("~/Views/Home/_footer.cshtml")
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="~/Scripts/materialize.js"></script>
+    <script src="~/Scripts/init.js"></script>
+    <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+</body>
+</html>
+

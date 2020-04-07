@@ -1,0 +1,152 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+  background-color:black;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.cohesos_logo
+{
+    margin-top:60px;
+    width:428px;
+    height:200px;
+    object-fit:cover;
+}
+
+.cohesos_logo_slider {
+    width: 228px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sidenav-trigger {
+  color: darkorange;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+    .sidenav li > a {
+        color: white;
+    }
+
+        .sidenav li > a:hover {
+            color: white;
+            background-color: darkorange;
+        }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+     
+  #logo-container{
+      color:transparent;
+  }
+
+    .cohesos_logo {
+        width: 328px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .sidenav li > a{
+        color:white;
+    }
+
+    .sidenav li > a:hover {
+        color: white;
+        background-color:darkorange;
+    }
+
+  
+}
+
+#about {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+
+    #about .section {
+        position: absolute;
+        top: 2%;
+    }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#about h4
+{
+    margin-top:10px;
+}
+
+.city {
+   background-image: url('../img/city2.jpg');
+   background-position:center top;
+   background-size:cover;
+   background-repeat:no-repeat;
+}
+
+.handjigsaw {
+    background-image: url('../img/handjigsaw.jpg');
+    background-position:center top;
+    height:100%;
+    width:100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.sidenav-overlay
+{
+    z-index:1;
+}
+
+.spacer
+{
+    padding-top:50px;
+}
