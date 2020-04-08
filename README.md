@@ -8,4 +8,4 @@ Simple Static web application developed using ASP.NET Core, C#, Html, Css.
 
 Used for advertising services and attracting new clients.
 
-Note: Compnay no longer operating.
+Note: Company no longer operating.
