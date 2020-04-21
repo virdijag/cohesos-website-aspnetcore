@@ -1,4 +1,4 @@
-# Cohesos Software Consultancy Web Site
+# Example: Cohesos Software Consultancy Web Site
 
 Used ASP.NET Core
 
@@ -8,4 +8,4 @@ Simple Static web application developed using ASP.NET Core, C#, Html, Css.
 
 Used for advertising services and attracting new clients.
 
-Note: Company no longer operating.
+
